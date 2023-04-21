@@ -1,0 +1,38 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 30/03/2023
+Var
+// Seção de Declarações das variáveis
+sim:caractere
+total: real
+unidades:inteiro
+valor1 , valor2:real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+  escreval(" ola seja bemvindo ao verdurao")
+ escreval (" a cima de 12 maçaes o valor e 1.00, a baixo 1,30")
+  escreval("")
+  
+ escreval ("quantas unidades voce quer comprar")
+ leia (unidades)
+
+  limpatela
+
+
+ se( unidades<=12) entao
+ escreval("")
+ total <-( unidades * 1.30 )
+ escreval("o valor será: ", total:6:2)
+ fimse
+
+ se( unidades>=12) entao
+ escreval("")
+ total <-( unidades * 1 )
+ escreval("o valor será: ", total:6:2)
+ fimse
+
+
+Fimalgoritmo
