@@ -1,0 +1,20 @@
+var
+idade:inteiro
+Inicio
+// usuario e senha no banco de dados
+escreva (" bem vindo ao site governo do estado  ")
+
+escreva ("Digite sua idade: ")
+leia ( idade )
+
+limpatela
+
+ se(idade >= 18) e ( idade <= 65)então
+ escreval("voce pode votar")
+ senão
+ escreval("voce nao pode votar")
+ fimse
+
+
+
+fimalgoritmo
