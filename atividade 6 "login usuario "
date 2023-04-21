@@ -1,0 +1,29 @@
+var 
+usuariocorreto: caractere
+ usuario:caractere
+ senha: caractere
+ senhacorreta: caractere
+Inicio
+// usuario e senha no banco de dados
+usuariocorreto <- "joaomatheus"
+senhacorreta <- "230"
+
+escreva (" bem vindo ")
+
+escreva ("Digite seu usuario: ")
+leia ( usuario )
+
+escreva("Digite a senha: ")
+leia ( senha )
+
+limpatela
+
+ se(usuario = usuariocorreto) e (senha = senhacorreta)então
+ escreval("usuario esta correto")
+ senão
+ escreval("entrada invalida")
+ fimse
+ 
+ 
+ 
+fimalgoritmo
