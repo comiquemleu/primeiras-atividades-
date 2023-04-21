@@ -1,0 +1,34 @@
+Algoritmo "semnome"
+// Disciplina  :  [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 21/04/2023
+Var
+   // Seção de Declarações das variáveis
+   valor1, somanumeros, contador : inteiro
+   media : real
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   repita
+
+      escreval ("digite um valor ")
+      leia(valor1)
+      se valor1 >= 0 entao
+
+         somanumeros <- somanumeros + valor1
+         contador <- contador + 1
+      fimse
+   ate valor1 < 0
+   media <- somanumeros/contador
+
+   escreval(" media: ", media)
+
+
+
+
+
+
+
+Fimalgoritmo
