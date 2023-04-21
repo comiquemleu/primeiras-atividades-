@@ -1,0 +1,28 @@
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Joao matheus(a) aluno(o)
+// Data atual  : 23/03/2023
+Var
+base , altura , area: real
+
+Inicio
+escreva("Digite um numero ")
+leia ( base )
+
+escreva ("Digite o numero ")
+leia( altura )
+
+limpatela
+
+area <- ( base*altura )/2
+
+escreval("")
+
+escreval ("valor da base: " , base)
+escreval ("valor da altura = " , altura )
+escreval (" resultado da area = " , area  )
+
+
+
+Fimalgoritmo
