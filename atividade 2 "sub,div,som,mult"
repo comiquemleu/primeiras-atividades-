@@ -1,0 +1,32 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Joao matheus(a) aluno(o)
+// Data atual  : 23/03/2023
+Var
+n1, n2, soma, divisao, multiplicacao, subtracao: real
+
+Inicio
+escreva("Digite um numero ")
+leia ( n1 )
+
+escreva ("Digite o numero ")
+leia( n2 )
+
+soma <- n1+n2
+
+divisao <- n1/n2;
+
+subtracao <- n1 - n2;
+
+multiplicacao  <- n1*n2
+
+escreval("")
+
+escreval ("Primeiro numero = " , n1)
+escreval ("Primeiro numero = " , n2)
+escreval ("Soma = " , soma )
+escreval (" multiplicaçao = " , multiplicacao )
+escreval ("divisao = " , divisao)
+escreval ("subtracao = " , subtracao )
