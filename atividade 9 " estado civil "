@@ -1,0 +1,26 @@
+Algoritmo  "atividade 9 "
+// Disciplina   : [Linguagem de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : socorro
+// aluno(a)    : joao matheus costa
+// Data atual  :
+
+var
+sexo , nome, estadocivil:caracter
+anos:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreval("seja bem vindo a federal!!!")
+escreval ("qual seu nome")
+leia (nome)
+escreval (" seu sexo? masculino ou feminino?")
+leia(sexo)
+escreval ("qual seu estado civil casad@ ou solteir@?")
+leia (estadocivil)
+
+se (estadocivil= "casado") ou (estadocivil="casada")entao
+escreval (" fale quanto anos de casad@")
+leia( anos )
+fimse
+Fimalgoritmo
