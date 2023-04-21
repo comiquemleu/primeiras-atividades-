@@ -1,0 +1,49 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Joao matheus(a) aluno(o)
+// Data atual  : 23/03/2023
+Var
+note1 , note2 , note3, note4 : inteiro
+nome: caractere
+idade: inteiro
+media: real
+
+Inicio
+
+escreva ("Digite seu nome: ")
+leia( nome)
+
+escreva ("Digite sua idade ")
+leia( idade )
+
+escreva("Digite o note  ")
+leia ( note1 )
+
+escreva ("Digite o note ")
+leia( note2 )
+
+escreva ("Digite o note ")
+leia( note3)
+
+escreva ("Digite o note ")
+leia( note4 )
+
+limpatela
+
+media <- ( note1 + note2 + note3 + note4 )/4
+
+escreval("")
+
+escreval ("valor de note1: " , note1)
+escreval ("valor de note2: " , note2)
+escreval ("valor de note3: " , note3)
+escreval ("valor de note4: " , note4)
+escreval ("media anual: " , media)
+escreval ("nome do aluno: " , nome)
+escreval ("idade: " , idade)
+
+
+
+Fimalgoritmo
