@@ -1,20 +1,23 @@
-var
-idade:inteiro
+lgoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Carlos anderson
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : joao matheus(a) aluno(a)
+// Data atual  : 28/03/2023
+Var
+ idade:inteiro
 Inicio
 // usuario e senha no banco de dados
-escreva (" bem vindo ao site governo do estado  ")
-
-escreva ("Digite sua idade: ")
+  escreval (" bem vindo ao site governo do estado  ")
+  escreval ("Digite sua idade: ")
 leia ( idade )
 
 limpatela
 
  se(idade >= 18) e ( idade <= 65)então
- escreval("voce pode votar")
+   escreval("voce pode votar")
  senão
- escreval("voce nao pode votar")
+   escreval("voce nao pode votar")
  fimse
-
-
-
-fimalgoritmo
+ 
+ fimalgaritimo 
