@@ -1,0 +1,42 @@
+Algoritmo  "atividade 1 leitura prefeitura"
+// Disciplina   : [Linguagem de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : socorro
+// aluno(a)    : joao matheus costa
+// Data atual  : 20/04/2023 as 13:23
+
+Var
+   quantidadeSalario, Salario, maiorSalario,mediagastos, menorSalario, mediaSalario, mediaFilhos: real
+   quantidadeFilhos, unidadeFilhos : inteiro
+Inicio
+   enquanto Salario >= 0  faca
+
+      escreval("Digite o valor do seu salário mensal")
+      leia(quantidadeSalario)
+
+      se quantidadeSalario <> 0 entao
+      
+         escreval("Digite a quantidade de filhos?: ")
+         leia(quantidadeFilhos)
+           se quantidadefilhos >= 0 entao
+           mediagastos <- (quantidadesalario / quantidadefilhos )
+
+         fimse
+
+         se (quantidadeSalario > salario) entao
+            salario <- quantidadeSalario
+         senao
+
+            Salario  <- (quantidadeSalario / quantidadefilhos)
+
+            escreval("A media de salário foi: ", quantidadeSalario)
+            escreval("A media do número de filhos foram: ", quantidadeFilhos)
+            escreval("O maior salário obtido foi: ", maiorSalario)
+            escreval("O menor salário obtido foi: ", menorSalario)
+            escreval ("media de gastos:", mediagastos)
+
+
+         fimse
+      fimse
+   fimenquanto
+Fimalgoritmo
