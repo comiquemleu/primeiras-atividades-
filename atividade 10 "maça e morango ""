@@ -1,0 +1,54 @@
+Algoritmo "semnome"
+// Disciplina  :  [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 05/04/2023
+Var
+// Seção de Declarações das variáveis
+ morango, maca: real
+ desejo : caractere
+ total : real
+
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+ escreval (" oque vc quer compra maça ou morango ? :")
+ leia (desejo)
+
+ se ( desejo = "morango")entao
+escreval (" quantos kg deseja? ")
+leia (morango)
+
+ se ( morango <= 5kg ) entao
+ total <- ( morango * 2.50 )
+ escreval( " o valor sera de:", total)
+ 
+ se ( morango >= 5kg ) entao
+ total <- ( morango * 2.50 )
+ escreval( " o valor sera de:", total)
+ fimse
+ 
+ fimse
+fimse
+
+limpatela
+
+
+ 
+ se ( maca <= 5kg ) entao
+ total <- ( morango * 1.80 )
+ escreval( " o valor sera de:", total)
+ fimse
+
+  se ( maca >= 5kg ) entao
+ total <- ( morango * 1.80 )
+ escreval( " o valor sera de:", total)
+ fimse
+
+
+ se ( maca < 5kg ) e ( morango < 5kg)entao
+ escreval (" o valor passa de 25.00 entao vc tera um desconto de 10%")
+ fimse
+Fimalgoritmo
