@@ -1,0 +1,31 @@
+media, soma, produto, menorvalor, maiorvalor: real
+ n1,n2: inteiro
+
+Inicio
+escreva ("Digite um numero: ")
+leia ( n1 )
+
+escreva("Digite um numero: ")
+leia ( n2 )
+
+limpatela
+
+ media <- ( n1 + n2 )/2
+ escreval( "media: ", media:6:2)
+escreval ("")
+
+ soma <- ( n1 + n2 )
+ escreval ("soma: ", soma)
+ escreval ("")
+ 
+ produto <- ( n1 * n2 )
+ escreval ( "produto: ", produto )
+  escreval ("")
+  
+ se  n1 > n2 então
+escreval ( n2 < n1 )-
+fimse
+
+
+
+Fimalgoritmo
